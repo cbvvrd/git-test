@@ -1,9 +1,21 @@
 h1 {
     color: red;
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
 
 .display-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 75%;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
